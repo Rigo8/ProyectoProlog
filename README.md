@@ -17,3 +17,6 @@ licencia(Licencia):- Licencia='no',!,write('Muy mal!, Sigue buscando. Ya la tien
 
 dentro(Respuesta):- Respuesta='si',!,write('Ahora enciende el auto y ve con precaucion ').
 dentro(Respuesta):- Respuesta='no',!,write('Usalo, para prevenir algun daño en caso de accidente, Ya lo tienes? '),read(Cinturon),dentro(Cinturon).
+
+%Aqui acciones en caso de elegir UBER
+transporte(Transporte):- Transporte='uber',!,nl,write('Has elegido ir en UBER! '),nl,write('Entra a la aplicacion de UBER, fija tu punto de partida y elige la opcionESTIMACION DE TARIFA e ingresa tu destino. Tienes el dinero suficiente? '),read(Dinero),dinero(Dinero).
