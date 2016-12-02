@@ -19,3 +19,4 @@ dentro(Respuesta):- Respuesta='si',!,write('Ahora enciende el auto y ve con prec
 dentro(Respuesta):- Respuesta='no',!,write('Usalo, para prevenir algun daño en caso de accidente, Ya lo tienes? '),read(Cinturon),dentro(Cinturon).
 
 
+dd
