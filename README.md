@@ -18,4 +18,4 @@ licencia(Licencia):- Licencia='no',!,write('Muy mal!, Sigue buscando. Ya la tien
 dentro(Respuesta):- Respuesta='si',!,write('Ahora enciende el auto y ve con precaucion ').
 dentro(Respuesta):- Respuesta='no',!,write('Usalo, para prevenir algun daño en caso de accidente, Ya lo tienes? '),read(Cinturon),dentro(Cinturon).
 
-.
+
